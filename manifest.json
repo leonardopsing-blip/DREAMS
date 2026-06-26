@@ -1,0 +1,47 @@
+{
+  "app_config": {
+    "name": "Dream's CRM - Sistema Unificado Premium",
+    "short_name": "Dream's CRM",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#f3f4f6",
+    "theme_color": "#0a192f",
+    "description": "Sistema de gestión y facturación para Mueblería Dream's",
+    "icons": [
+      {
+        "src": "icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  },
+  "sample_transaction": {
+    "id": "ING-123456",
+    "fecha": "26/6/2026, 1:29:13",
+    "cliente": "Juan Pérez",
+    "tipoTransaccion": "Ingreso",
+    "condicion": "Contado",
+    "producto": "2x Juego de Comedor, 1x Mesa de Centro",
+    "cartItems": [
+      {
+        "name": "Juego de Comedor",
+        "price": 250,
+        "qty": 2,
+        "subtotal": 500
+      },
+      {
+        "name": "Mesa de Centro",
+        "price": 60,
+        "qty": 1,
+        "subtotal": 60
+      }
+    ],
+    "totalVenta": 560,
+    "totalEgreso": 0
+  }
+}
